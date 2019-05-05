@@ -14,6 +14,6 @@ The `src` folder contains a basic example app using Inferno, Inferno Router, Com
 
 * Clone this repo.
 * Run `npm install` to install dependencies.
-* Run `npm run dev` to build the `index.js` file.
+* Run `npm run dev` to build the `index.js` file in dev mode, or run `npm run prod` to build in prod mode. Note that the prod build extracts the transpiled CSS into `dist/main.css` using `mini-css-extract-plugin`, whereas the dev build bundles it into the JS file. You thus may wish to customize your project to either build prod into a separate dir or delete the contents of the `dist` directory prior to rebuilding.
 * Open `helloworld.html` to confirm the file was built successfully. You may consider adding a dev-server to your copy of this project.
-* Make whatever changes you need for your project.
+* Make whatever additional changes you need for your project.
