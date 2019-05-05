@@ -6,7 +6,7 @@ Boilerplate to get quickly started with Inferno with the latest dependencies. Th
 
 ## :warning: Alert
 
-The package.json uses node-sass, which uses a [vulnerable version](https://nvd.nist.gov/vuln/detail/CVE-2018-20834) of node-tar. The [issue](https://github.com/sass/node-sass/issues/2625) is being tracked. I'm currently awaiting for node-sass to issue a new version, and then I'll upgrade the dependencies. For now, you might see NPM complaining about this vulnerability.
+The client's `package.json` uses `node-sass`, which uses a [vulnerable version](https://nvd.nist.gov/vuln/detail/CVE-2018-20834) of `node-tar`. The [issue](https://github.com/sass/node-sass/issues/2625) is being tracked. I'm currently awaiting for `node-sass to issue a new version, and then I'll upgrade the dependencies. For now, you might see NPM complaining about this vulnerability.
 
 ## Using
 
