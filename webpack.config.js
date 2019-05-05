@@ -17,7 +17,7 @@ module.exports = (env, argv) => {
     },
     resolve: {
       alias: {
-          'inferno': isDevelopment ? 'inferno/dist/index.dev.esm.js' : 'inferno/dist/inferno.js',
+          'inferno': isDevelopment ? 'inferno/dist/index.dev.esm.js' : 'inferno/dist/index.esm.js',
       },
     },
     module: {
