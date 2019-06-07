@@ -17,23 +17,20 @@ The `src` folder contains a basic example app using Inferno, Inferno Router, Com
 ## Summary of NPM packages
 
 * @babel/polyfill
-* inferno
-* inferno-router
-* npm-check-updates
 * @babel/core
 * @babel/plugin-syntax-jsx
 * @babel/preset-env
 * babel-loader
 * babel-plugin-inferno
+* inferno
+* inferno-router
 * css-loader
 * file-loader
-* mini-css-extract-plugin
 * node-sass
 * sass-loader
 * style-loader
 * url-loader
-* webpack
-* webpack-cli
+* mini-css-extract-plugin
 
 ## Summary of Webpack loaders
 
