@@ -4,8 +4,8 @@
   "description": "Quick setup with Inferno.",
   "main": "src/index.js",
   "scripts": {
-    "dev": "webpack --mode=development --watch",
-    "prod": "webpack --mode=production"
+    "dev": "rm -rf dist/*; webpack --mode=development --watch",
+    "prod": "rm -rf dist/*; webpack --mode=production"
   },
   "author": "Vasilios Magriplis",
   "license": "MIT",
