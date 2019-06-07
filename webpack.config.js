@@ -64,9 +64,9 @@ module.exports = (env, argv) => {
           use: [
             {
               loader: 'url-loader',
-	      options: {
-	        fallback: 'file-loader'
-	      }
+              options: {
+                fallback: 'file-loader'
+              }
             }
           ]
         }
