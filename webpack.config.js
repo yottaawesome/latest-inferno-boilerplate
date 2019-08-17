@@ -1,5 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = (env, argv) => { 
   // We need to set this manually due to https://github.com/webpack/webpack/issues/7074
@@ -14,7 +15,7 @@ module.exports = (env, argv) => {
 
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'main.js'
+      filename: '[hash].[name].js'
     },
 
     devtool: 'source-map',
@@ -89,6 +90,9 @@ module.exports = (env, argv) => {
         // Options similar to the same options in webpackOptions.output
         // both options are optional
         filename: "main.css"
+      }),
+      new HTMLWebpackPlugin({
+          template: path.join(__dirname, './src/index.html')
       })
     ]
   };
