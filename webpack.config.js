@@ -11,15 +11,24 @@ module.exports = (env, argv) => {
 
   return {
     entry: './src/index.js',
+
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: 'main.js'
     },
+
+    devtool: 'source-map',
+
     resolve: {
       alias: {
           'inferno': isDevelopment ? 'inferno/dist/index.dev.esm.js' : 'inferno/dist/index.esm.js',
       },
     },
+
+    devServer: {
+      contentBase: './dist'
+    },
+
     module: {
       rules: [
         {
