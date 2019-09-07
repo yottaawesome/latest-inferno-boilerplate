@@ -4,6 +4,10 @@
 
 This repo is boilerplate to quickly get started with building an ES6 Inferno app using the latest dependencies. This repo is set up with Webpack, Babel, Inferno, Inferno Router, modular SCSS support, and the Webpack dev server. The main motivation behind creating this repo is the other boilerplate repos for Inferno I found were either quite out of date with their dependencies or used build tools other than Webpack. In addition, I found Inferno's [create-inferno-app](https://infernojs.org/docs/guides/installation) utility to be a little too magical and a little too "black-boxy" for my comfort.
 
+## Status
+
+This project is being continually maintained.
+
 ## Using the code
 
 The `src` folder contains a basic example app using Inferno, Inferno Router, Components, and modular SCSS.
