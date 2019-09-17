@@ -8,6 +8,10 @@
     "prod": "rm -rf dist/*; webpack --mode=production",
     "start": "rm -rf dist/*; webpack-dev-server --open --hot --port 8080"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yottaawesome/latest-inferno-boilerplate.git"
+  },
   "author": "Vasilios Magriplis",
   "license": "MIT",
   "dependencies": {
