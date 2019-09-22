@@ -1,4 +1,5 @@
-import '@babel/polyfill';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import { Component, render } from 'inferno';
 import { HashRouter, Route, Switch, Link } from 'inferno-router';
 import HomeRoute from './home-route';

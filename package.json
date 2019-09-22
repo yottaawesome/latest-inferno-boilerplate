@@ -4,9 +4,10 @@
   "description": "Quick setup with Inferno.",
   "main": "src/index.js",
   "scripts": {
-    "dev": "rm -rf dist/*; webpack --mode=development --watch",
-    "prod": "rm -rf dist/*; webpack --mode=production",
-    "start": "rm -rf dist/*; webpack-dev-server --open --hot --port 8080"
+    "build-dev": "rm -rf dist/*; webpack --mode=development",
+    "build-prod": "rm -rf dist/*; webpack --mode=production",
+    "start": "rm -rf dist/*; webpack-dev-server --open --hot --port 8080",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
   "author": "Vasilios Magriplis",
   "license": "MIT",
   "dependencies": {
-    "@babel/polyfill": "7.6.0",
+    "core-js": "^3.2.1",
+    "regenerator-runtime": "^0.13.3",
     "inferno": "7.3.1",
     "inferno-router": "7.3.1"
   },
