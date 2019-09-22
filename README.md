@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yottaawesome/latest-inferno-boilerplate.svg?branch=master)](https://travis-ci.org/yottaawesome/latest-inferno-boilerplate)
+
 # Inferno Boilerplate
 
 ## Introduction
