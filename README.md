@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/yottaawesome/latest-inferno-boilerplate.svg?branch=master)](https://travis-ci.org/yottaawesome/latest-inferno-boilerplate) https://david-dm.org/username/repo.svg ![Dependencies](https://david-dm.org/yottaawesome/latest-inferno-boilerplate.svg)
+[![Build Status](https://travis-ci.org/yottaawesome/latest-inferno-boilerplate.svg?branch=master)](https://travis-ci.org/yottaawesome/latest-inferno-boilerplate) ![Dependencies](https://david-dm.org/yottaawesome/latest-inferno-boilerplate.svg)
 
 # Inferno Boilerplate
 
