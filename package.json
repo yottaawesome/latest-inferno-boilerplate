@@ -18,13 +18,13 @@
   "dependencies": {
     "core-js": "3.2.1",
     "regenerator-runtime": "0.13.3",
-    "inferno": "7.3.1",
-    "inferno-router": "7.3.1"
+    "inferno": "7.3.2",
+    "inferno-router": "7.3.2"
   },
   "devDependencies": {
-    "@babel/core": "7.6.2",
+    "@babel/core": "7.6.3",
     "@babel/plugin-syntax-jsx": "7.2.0",
-    "@babel/preset-env": "7.6.2",
+    "@babel/preset-env": "7.6.3",
     "babel-loader": "8.0.6",
     "babel-plugin-inferno": "6.1.0",
     "css-loader": "3.2.0",
