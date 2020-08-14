@@ -55,7 +55,7 @@ module.exports = (env, argv) => {
               options: {
                 modules: {
                   localIdentName: '[folder]__[local]__[hash:base64:5]',
-		              exportLocalsConvention: 'camelCase'
+		   exportLocalsConvention: 'camelCase'
                 }
               }
             },
