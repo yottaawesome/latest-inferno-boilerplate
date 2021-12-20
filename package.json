@@ -15,7 +15,7 @@
   "author": "Vasilios Magriplis",
   "license": "MIT",
   "dependencies": {
-    "core-js": "3.19.3",
+    "core-js": "3.20.0",
     "inferno": "7.4.11",
     "inferno-router": "7.4.11",
     "regenerator-runtime": "0.13.9"
