@@ -21,9 +21,9 @@
     "regenerator-runtime": "0.13.9"
   },
   "devDependencies": {
-    "@babel/core": "7.17.10",
-    "@babel/plugin-syntax-jsx": "7.16.7",
-    "@babel/preset-env": "7.17.10",
+    "@babel/core": "7.17.12",
+    "@babel/plugin-syntax-jsx": "7.17.12",
+    "@babel/preset-env": "7.17.12",
     "babel-loader": "8.2.5",
     "babel-plugin-inferno": "6.4.0",
     "clean-webpack-plugin": "^4.0.0",
