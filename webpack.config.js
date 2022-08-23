@@ -14,6 +14,8 @@ module.exports = (env, argv) => {
   return {
     entry: './src/index.js',
 
+    mode: isDevelopment ? 'development' : 'production',
+
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: '[contenthash].[name].js'
@@ -28,7 +30,9 @@ module.exports = (env, argv) => {
     },
 
     devServer: {
-      contentBase: './dist'
+      static : {
+        directory : path.join(__dirname, "dist/")
+      }
     },
 
     module: {
@@ -75,14 +79,7 @@ module.exports = (env, argv) => {
         },
         {
           test: /\.(png|jpe?g|gif|svg)$/,
-          use: [
-            {
-              loader: 'url-loader',
-              options: {
-                fallback: 'file-loader'
-              }
-            }
-          ]
+          type: 'asset/inline'
         }
       ]
     },
