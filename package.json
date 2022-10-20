@@ -16,14 +16,14 @@
   "license": "MIT",
   "dependencies": {
     "core-js": "3.25.5",
-    "inferno": "8.0.3",
-    "inferno-router": "8.0.3",
-    "regenerator-runtime": "0.13.9"
+    "inferno": "8.0.4",
+    "inferno-router": "8.0.4",
+    "regenerator-runtime": "0.13.10"
   },
   "devDependencies": {
     "@babel/core": "7.19.3",
     "@babel/plugin-syntax-jsx": "7.18.6",
-    "@babel/preset-env": "7.19.3",
+    "@babel/preset-env": "7.19.4",
     "babel-loader": "8.2.5",
     "babel-plugin-inferno": "6.5.0",
     "clean-webpack-plugin": "^4.0.0",
