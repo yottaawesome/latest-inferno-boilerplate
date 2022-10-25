@@ -15,13 +15,13 @@
   "author": "Vasilios Magriplis",
   "license": "MIT",
   "dependencies": {
-    "core-js": "3.25.5",
+    "core-js": "3.26.0",
     "inferno": "8.0.4",
     "inferno-router": "8.0.4",
     "regenerator-runtime": "0.13.10"
   },
   "devDependencies": {
-    "@babel/core": "7.19.3",
+    "@babel/core": "7.19.6",
     "@babel/plugin-syntax-jsx": "7.18.6",
     "@babel/preset-env": "7.19.4",
     "babel-loader": "8.2.5",
