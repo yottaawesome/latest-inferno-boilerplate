@@ -15,7 +15,7 @@
   "author": "Vasilios Magriplis",
   "license": "MIT",
   "dependencies": {
-    "core-js": "3.26.0",
+    "core-js": "3.26.1",
     "inferno": "8.0.4",
     "inferno-router": "8.0.4",
     "regenerator-runtime": "0.13.10"
@@ -27,7 +27,7 @@
     "babel-loader": "9.1.0",
     "babel-plugin-inferno": "6.5.0",
     "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "6.7.1",
+    "css-loader": "6.7.2",
     "html-webpack-plugin": "5.5.0",
     "mini-css-extract-plugin": "2.6.1",
     "sass": "1.56.1",
