@@ -16,8 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "core-js": "3.27.2",
-    "inferno": "8.0.5",
-    "inferno-router": "8.0.5",
+    "inferno": "8.0.6",
+    "inferno-router": "8.0.6",
     "regenerator-runtime": "0.13.11"
   },
   "devDependencies": {
