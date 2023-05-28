@@ -16,25 +16,25 @@
   "license": "MIT",
   "dependencies": {
     "core-js": "3.30.2",
-    "inferno": "8.1.1",
-    "inferno-router": "8.1.1",
+    "inferno": "8.2.0",
+    "inferno-router": "8.2.0",
     "regenerator-runtime": "0.13.11"
   },
   "devDependencies": {
-    "@babel/core": "7.21.8",
+    "@babel/core": "7.22.1",
     "@babel/plugin-syntax-jsx": "7.21.4",
-    "@babel/preset-env": "7.21.5",
+    "@babel/preset-env": "7.22.2",
     "babel-loader": "9.1.2",
     "babel-plugin-inferno": "6.6.0",
     "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "6.7.4",
+    "css-loader": "6.8.1",
     "html-webpack-plugin": "5.5.1",
     "mini-css-extract-plugin": "2.7.6",
     "sass": "1.62.1",
-    "sass-loader": "13.2.2",
+    "sass-loader": "13.3.1",
     "style-loader": "3.3.3",
     "url-loader": "4.1.1",
-    "webpack": "5.83.1",
+    "webpack": "5.84.1",
     "webpack-cli": "5.1.1",
     "webpack-dev-server": "4.15.0"
   }
