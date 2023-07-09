@@ -15,16 +15,16 @@
   "author": "Vasilios Magriplis",
   "license": "MIT",
   "dependencies": {
-    "core-js": "3.31.0",
+    "core-js": "3.31.1",
     "inferno": "8.2.2",
     "inferno-router": "8.2.2",
     "regenerator-runtime": "0.13.11"
   },
   "devDependencies": {
-    "@babel/core": "7.22.5",
+    "@babel/core": "7.22.8",
     "@babel/plugin-syntax-jsx": "7.22.5",
-    "@babel/preset-env": "7.22.5",
-    "babel-loader": "9.1.2",
+    "@babel/preset-env": "7.22.7",
+    "babel-loader": "9.1.3",
     "babel-plugin-inferno": "6.6.0",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "6.8.1",
