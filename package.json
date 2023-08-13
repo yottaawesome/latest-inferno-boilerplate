@@ -18,19 +18,19 @@
     "core-js": "3.32.0",
     "inferno": "8.2.2",
     "inferno-router": "8.2.2",
-    "regenerator-runtime": "0.13.11"
+    "regenerator-runtime": "0.14.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.9",
+    "@babel/core": "7.22.10",
     "@babel/plugin-syntax-jsx": "7.22.5",
-    "@babel/preset-env": "7.22.9",
+    "@babel/preset-env": "7.22.10",
     "babel-loader": "9.1.3",
     "babel-plugin-inferno": "6.6.1",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "6.8.1",
     "html-webpack-plugin": "5.5.3",
     "mini-css-extract-plugin": "2.7.6",
-    "sass": "1.64.2",
+    "sass": "1.65.1",
     "sass-loader": "13.3.2",
     "style-loader": "3.3.3",
     "url-loader": "4.1.1",
